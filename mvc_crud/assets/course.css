@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+thead th,
+tbody td {
+    padding: 20px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+    margin-right: 5px;
+}
+
+.action-btn.edit {
+    background: #007bff;
+}
+
+.action-btn.delete {
+    background: #dc3545;
+}
+
+.action-btn.view {
+    background: #28a745;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}
+
+.message {
+    background-color: #f0f4c3;
+    padding: 10px;
+    border: 1px solid #cddc39;
+    color: #33691e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination-link {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 12px;
+    color: #2196F3;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination-link.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination-link:hover {
+    background-color: #2196F3;
+    color: white;
+}

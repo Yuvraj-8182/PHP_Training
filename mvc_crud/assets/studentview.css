@@ -1,0 +1,144 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+
+/* Table Styles */
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.student-table th,
+.student-table td {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.student-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Button Styles */
+
+.btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-edit {
+    background-color: #007bff;
+}
+
+.btn-edit:hover {
+    background-color: #0056b3;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.btn-view {
+    background-color: #28a745;
+}
+
+.btn-view:hover {
+    background-color: #218838;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}
+
+.message {
+    background-color: #f0f4c3;
+    padding: 10px;
+    border: 1px solid #cddc39;
+    color: #33691e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination-link {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 12px;
+    color: #2196F3;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination-link.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination-link:hover {
+    background-color: #2196F3;
+    color: white;
+}
